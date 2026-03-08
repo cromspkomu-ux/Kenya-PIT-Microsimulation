@@ -1,0 +1,844 @@
+{
+    "_rate1": {
+        "long_name": "Marginal PIT Rate1",
+        "description": "PIT Rate for Consumption of Food",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.1
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate2": {
+        "long_name": "Marginal PIT Rate2",
+        "description": "PIT Rate for Consumption of Alcohol_Tobacco",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.25
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate3": {
+        "long_name": "Marginal PIT Rate3",
+        "description": "PIT Rate for Consumption of Clothing_Footwear",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.3
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate4": {
+        "long_name": "Marginal PIT Rate4",
+        "description": "PIT Rate for Consumption of Housing",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.325
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate5": {
+        "long_name": "Marginal PIT Rate5",
+        "description": "PIT Rate for Consumption of Household_Goods_Services",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.35
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk1": {
+        "long_name": "PIT Threshold1",
+        "description": "PIT Rate for Consumption of Health",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            288000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 388000.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk2": {
+        "long_name": "PIT Threshold2",
+        "description": "PIT Rate for Consumption of Transport",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            388000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 288000,
+            "max": 6000000.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk3": {
+        "long_name": "PIT Threshold3",
+        "description": "PIT Rate for Consumption of Communication",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            6000000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 388000,
+            "max": 9600000.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk4": {
+        "long_name": "PIT Threshold4",
+        "description": "PIT Rate for Consumption of Recreation_Culture",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            9600000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 6000000,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk5": {
+        "long_name": "PIT Threshold5",
+        "description": "PIT Rate for Consumption of Education",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            9e+99
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 9600000,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_interest_WHT_rate": {
+        "long_name": "Exemption for Persons with Disabilities",
+        "description": "PIT Rate for Consumption of Other_Consumption",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.15
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_mortgage_deduction_threshold": {
+        "long_name": "Ceiling for Insurance Relief",
+        "description": "PIT Rate for Consumption of Other_Consumption",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            360000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_pension_deduction_threshold": {
+        "long_name": "Ceiling for Insurance Relief",
+        "description": "PIT Rate for Consumption of Other_Consumption",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            240000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_personal_relief": {
+        "long_name": "Personal Relief",
+        "description": "PIT Rate for Consumption of Restaurants_Hotels",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            28800.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_insurance_relief_threshold": {
+        "long_name": "Ceiling for Insurance Relief",
+        "description": "PIT Rate for Consumption of Other_Consumption",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            60000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_disability_exemption_threshold": {
+        "long_name": "Final Tax on Interest",
+        "description": "PIT Rate for Consumption of Other_Consumption",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            1800000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate1_curr_law": {
+        "long_name": "Marginal PIT Rate1",
+        "description": "PIT Rate for Consumption of Food",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.1
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate2_curr_law": {
+        "long_name": "Marginal PIT Rate2",
+        "description": "PIT Rate for Consumption of Alcohol_Tobacco",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.25
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate3_curr_law": {
+        "long_name": "Marginal PIT Rate3",
+        "description": "PIT Rate for Consumption of Clothing_Footwear",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.3
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate4_curr_law": {
+        "long_name": "Marginal PIT Rate4",
+        "description": "PIT Rate for Consumption of Housing",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.325
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_rate5_curr_law": {
+        "long_name": "Marginal PIT Rate5",
+        "description": "PIT Rate for Consumption of Household_Goods_Services",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            0.35
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 1.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk1_curr_law": {
+        "long_name": "PIT Threshold1",
+        "description": "PIT Rate for Consumption of Health",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            288000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 388000.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk2_curr_law": {
+        "long_name": "PIT Threshold2",
+        "description": "PIT Rate for Consumption of Transport",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            388000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 288000,
+            "max": 6000000.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk3_curr_law": {
+        "long_name": "PIT Threshold3",
+        "description": "PIT Rate for Consumption of Communication",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            6000000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 388000,
+            "max": 9600000.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk4_curr_law": {
+        "long_name": "PIT Threshold4",
+        "description": "PIT Rate for Consumption of Recreation_Culture",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            9600000.0
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 6000000,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_tbrk5_curr_law": {
+        "long_name": "PIT Threshold5",
+        "description": "PIT Rate for Consumption of Education",
+        "itr_ref": "PIT Act",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": "",
+        "value": [
+            9e+99
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 9600000,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_taxable_income_threshold": {
+        "long_name": "Elasticity of Taxable Income Threshholds",
+        "description": "Elasticity of Taxable Income Threshholds",
+        "itr_ref": "Research on Elasticity of Income",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                10000,
+                100000,
+                9e+99
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_taxable_income_value": {
+        "long_name": "Elasticity of Taxable Income Values",
+        "description": "Elasticity of Taxable Income Values",
+        "itr_ref": "Research on Elasticity of Income",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                0.2,
+                0.2,
+                0.2
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": -100,
+            "max": 100.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_capital_income_threshold": {
+        "long_name": "Elasticity of Capital Income Threshholds",
+        "description": "Elasticity of Capital Income Threshholds",
+        "itr_ref": "Research on Elasticity of Income",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                10000,
+                100000,
+                9e+99
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    },
+    "_elasticity_pit_capital_income_value": {
+        "long_name": "Elasticity of Capital Income Values",
+        "description": "Elasticity of Capital Income Values",
+        "itr_ref": "Research on Elasticity of Income",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2023"
+        ],
+        "start_year": 2023,
+        "cpi_inflatable": false,
+        "cpi_inflated": false,
+        "col_var": "bracket",
+        "col_label": [
+            "bracket1",
+            "bracket2",
+            "bracket3"
+        ],
+        "value": [
+            [
+                0.2,
+                0.2,
+                0.2
+            ]
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "range": {
+            "min": -100,
+            "max": 100.0
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"
+    }
+}

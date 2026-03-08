@@ -1,0 +1,18 @@
+{
+ "0": "cal_capital_income",
+ "1": "cal_total_income",
+ "2": "cal_emp_income",
+ "3": "cal_mortgage_deduction",
+ "4": "cal_pension_deduction",
+ "5": "cal_total_deductions",
+ "6": "cal_disability_exemption",
+ "7": "cal_net_taxable_income",
+ "8": "cal_pit_c",
+ "9": "cal_ti_behavior",
+ "10": "cal_pit_w",
+ "11": "cal_reliefs",
+ "12": "cal_total_pit"
+}
+
+
+

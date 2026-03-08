@@ -1,0 +1,235 @@
+{
+    "read": {
+        "id_n": {
+            "required": true,
+            "type": "int",
+            "desc": "Unique positive numeric identifier for filing unit",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "Year": {
+            "required": true,
+            "type": "int",
+            "desc": "Year",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "weight": {
+            "required": true,
+            "type": "float",
+            "desc": "Weight",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Total": {
+            "required": true,
+            "type": "float",
+            "desc": "Consumption Total",
+            "form": {
+                "2015": "Calculated from National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Other": {
+            "required": true,
+            "type": "float",
+            "desc": "Consumption on Other Items = Non_Food",
+            "form": {
+                "2015": "Calculated from National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "GROSS_INCOME": {
+            "required": false,
+            "type": "float",
+            "desc": "Gross Income",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Food": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Food",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Alcohol_Tobacco": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Alcohol_Tobacco",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Clothing_Footwear": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Clothing_Footwear",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Housing": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Housing",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Hhold_Goods_Services": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Hhold_Goods_Services",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Health": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Health",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Transport": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Transport",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Communication": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Communication",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Recreation_Culture": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Recreation_Culture",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Education": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Education",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Restaurants_Hotels": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Restaurants_Hotels",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },
+        "CONS_Miscellaneous": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Miscellaneous",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        }
+    },
+    "calc": {
+        "CONS_Total": {
+            "type": "float",
+            "desc": "Consumption Total",
+            "form": {
+                "2015": "Calculated from National Household Survey 2015"
+            }
+        },
+        "CONS_Non_Food": {
+            "type": "float",
+            "desc": "Consumption on Non_Food",
+            "form": {
+                "2015": "Calculated from National Household Survey 2015"
+            }
+        },
+        "applicable_elasticity_food": {
+            "type": "float",
+            "desc": "Applicable elasticity based on Total Consumption_Income levels",
+            "form": {
+                "2015": "Calculated from National Household Survey 2015"
+            }
+        },
+        "applicable_elasticity_non_food": {
+            "type": "float",
+            "desc": "Applicable elasticity based on Total Consumption_Income levels",
+            "form": {
+                "2015": "Calculated from National Household Survey 2015"
+            }
+        },
+        "vat_Food": {
+            "type": "float",
+            "desc": "VAT on Food",
+            "form": {
+                "2015": "Calculated by the Model"
+            }
+        },
+        "vat_Non_Food": {
+            "type": "float",
+            "desc": "VAT on Non Food",
+            "form": {
+                "2015": "Calculated by the Model"
+            }
+        },
+        "vatax": {
+            "type": "float",
+            "desc": "Total VAT",
+            "form": {
+                "2015": "Calculated by the Model"
+            }
+        }
+    }
+}

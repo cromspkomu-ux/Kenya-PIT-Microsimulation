@@ -1,0 +1,16 @@
+﻿parameter,filename
+DEFAULTS_FILENAME,current_law_policy_vat.json
+GROWFACTORS_FILENAME,growfactors_vat.csv
+vat_data_filename,vat.csv
+vat_weights_filename,vat_weights.csv
+vat_records_variables_filename,records_variables_vat.json
+vat_benchmark_filename,tax_incentives_benchmark_vat.json
+vat_functions_filename,functions_vat.py
+vat_function_names_filename,function_names_vat.json
+vat_distribution_json_filename,vat_distribution.json
+gdp_filename,gdp_nominal_kenya.csv
+start_year,2025
+end_year,2030
+data_start_year,2016
+SALARY_VARIABLE,CONS_Total
+vat_id_var,id_n

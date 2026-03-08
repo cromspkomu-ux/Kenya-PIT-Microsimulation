@@ -1,0 +1,17 @@
+﻿parameter,filename
+DEFAULTS_FILENAME,current_law_policy_cit_training.json
+GROWFACTORS_FILENAME,growfactors_cit_training.csv
+cit_data_filename,cit_data_training.csv
+cit_weights_filename,cit_weights_training.csv
+cit_records_variables_filename,tax_incentives_benchmark_cit.json
+cit_benchmark_filename,tax_incentives_benchmark_vat.json
+cit_functions_filename,functions_cit_training.py
+cit_function_names_filename,function_names_cit_training.json
+cit_distribution_json_filename,cit_distribution_egypt.json
+gdp_filename,gdp_nominal_kenya.csv
+start_year,2024
+end_year,2030
+data_start_year,2015
+SALARY_VARIABLE,CONS_Total
+cit_id_var,id_n
+cit_max_lag_years,10

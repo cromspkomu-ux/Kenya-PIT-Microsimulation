@@ -1,0 +1,54 @@
+{
+  "1": {
+    "selected_item": "elasticity_consumption_food_value",
+    "selected_value": [
+      [
+        "-0.4",
+        "-0.4",
+        "-0.4"
+      ]
+    ],
+    "selected_year": [
+      "2025"
+    ]
+  },
+  "2": {
+    "selected_item": "elasticity_consumption_food_threshold",
+    "selected_value": [
+      [
+        10000,
+        100000,
+        9e+99
+      ]
+    ],
+    "selected_year": [
+      "2025"
+    ]
+  },
+  "3": {
+    "selected_item": "elasticity_consumption_non_food_value",
+    "selected_value": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "selected_year": [
+      "2025"
+    ]
+  },
+  "4": {
+    "selected_item": "elasticity_consumption_non_food_threshold",
+    "selected_value": [
+      [
+        10000,
+        100000,
+        9e+99
+      ]
+    ],
+    "selected_year": [
+      "2025"
+    ]
+  }
+}

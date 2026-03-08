@@ -1,0 +1,10 @@
+{
+    "0": "cal_CONS_Non_Food",
+    "1": "cal_CONS_Other",
+    "2": "cal_CONS_Total",
+    "3": "cal_Applicable_Elasticity_Food",
+    "4": "cal_Applicable_Elasticity_Non_Food",
+    "5": "cal_CONS_Food_behavior_and_vat",
+    "6": "cal_CONS_Non_Food_behavior_and_vat",
+    "7": "cal_vat"
+}

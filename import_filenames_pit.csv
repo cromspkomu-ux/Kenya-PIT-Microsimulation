@@ -1,0 +1,17 @@
+﻿parameter,filename
+DEFAULTS_FILENAME,current_law_policy_pit_kenya.json
+GROWFACTORS_FILENAME,growfactors_pit_kenya.csv
+pit_data_filename,pit_kenya.csv
+pit_weights_filename,pit_weights_kenya.csv
+pit_records_variables_filename,records_variables_pit_kenya.json
+pit_benchmark_filename,tax_incentives_benchmark_pit_kenya.json
+pit_functions_filename,functions_pit_kenya.py
+pit_function_names_filename,function_names_pit_kenya.json
+pit_distribution_json_filename,pit_distribution_kenya.json
+gdp_filename,gdp_nominal_kenya.csv
+start_year,2024
+end_year,2032
+data_start_year,2023
+SALARY_VARIABLE,SALARY
+pit_id_var,id_n
+pit_max_lag_years,10

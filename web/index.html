@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Kenya Tax Microsimulation — Web Runner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body{font-family:system-ui,Segoe UI,Roboto,Arial; max-width:1200px;margin:20px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+    h1{font-size:20px;margin:0}
+    .tabs { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px; }
+    .tab { padding:10px 14px; border:1px solid #bbb; background:#f7f7f7; cursor:pointer; border-bottom: none; border-top-left-radius:6px; border-top-right-radius:6px; }
+    .tab.active { background:#fff; font-weight:600 }
+    .tab-container { border:1px solid #bbb; padding:18px; border-radius:6px; background:#fff; min-height:200px }
+    .link { color:#1565c0; text-decoration:underline; cursor:pointer }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kenya Tax Microsimulation — Web Runner</h1>
+    <div style="font-size:0.9rem;color:#666">Local dev UI</div>
+  </header>
+
+  <div class="tabs" role="tablist" aria-label="Main tabs">
+    <div class="tab active" data-tab="policy">Policy</div>
+    <div class="tab" data-tab="behavior">Behavior</div>
+    <div class="tab" data-tab="tax_expenditure">Tax Expenditures</div>
+    <div class="tab" data-tab="distribution">Distribution</div>
+    <div class="tab" data-tab="grow_factors">Grow Factors</div>
+    <div class="tab" data-tab="settings">Setting</div>
+  </div>
+
+  <div class="tab-container" id="tab-content">
+    <!-- partials will be loaded here -->
+  </div>
+
+<script>
+/* Tab system + lazy-loading tab partials and optional tab scripts */
+const tabs = document.querySelectorAll('.tab');
+const content = document.getElementById('tab-content');
+
+async function loadTab(tabName) {
+  try {
+    const resp = await fetch(`/web/${tabName}.html`);
+    if (!resp.ok) {
+      content.innerHTML = `<div style="color:crimson">Failed to load tab: ${tabName} — ${resp.statusText}</div>`;
+      return;
+    }
+    const html = await resp.text();
+    content.innerHTML = html;
+
+    // Try to append the tab-specific JS (web/<tabName>.js)
+    // Remove previously appended dynamic script if any (optional)
+    const existing = document.getElementById('tab-script');
+    if (existing) existing.remove();
+
+    const scriptUrl = `/web/${tabName}.js`;
+    // try to fetch script HEAD (silently ignore errors)
+    try {
+      const head = await fetch(scriptUrl, { method: 'HEAD' });
+      if (head.ok) {
+        const s = document.createElement('script');
+        s.id = 'tab-script';
+        s.src = scriptUrl;
+        document.body.appendChild(s);
+      } else {
+        // not found — nothing to load
+      }
+    } catch (e) {
+      // server might block HEAD; try GET
+      try {
+        const getResp = await fetch(scriptUrl);
+        if (getResp.ok) {
+          const s = document.createElement('script');
+          s.id = 'tab-script';
+          s.src = scriptUrl;
+          document.body.appendChild(s);
+        }
+      } catch(_) { /* ignore */ }
+    }
+  } catch (err) {
+    content.innerHTML = `<div style="color:crimson">Error loading tab ${tabName}: ${err.toString()}</div>`;
+  }
+}
+
+
+// tab click handlers
+tabs.forEach(t => {
+  t.addEventListener('click', () => {
+    tabs.forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    const tabName = t.dataset.tab;
+    loadTab(tabName);
+  });
+});
+
+// load policy tab on first load
+loadTab('policy');
+</script>
+</body>
+</html>

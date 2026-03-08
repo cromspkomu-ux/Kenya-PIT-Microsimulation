@@ -1,0 +1,31 @@
+﻿field_name,long_name,description,itr_ref,notes,row_var,row_label,start_year,cpi_inflatable,cpi_inflated,col_var,col_label,boolean_value,integer_value,value,range,min,max,out_of_range_minmsg,out_of_range_maxmsg,out_of_range_action
+_rate1,Marginal PIT Rate1,PIT Rate for Consumption of Food,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.1,,0,1,,,stop
+_rate2,Marginal PIT Rate2,PIT Rate for Consumption of Alcohol_Tobacco,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.25,,0,1,,,stop
+_rate3,Marginal PIT Rate3,PIT Rate for Consumption of Clothing_Footwear,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.3,,0,1,,,stop
+_rate4,Marginal PIT Rate4,PIT Rate for Consumption of Housing,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.325,,0,1,,,stop
+_rate5,Marginal PIT Rate5,PIT Rate for Consumption of Household_Goods_Services,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.35,,0,1,,,stop
+_tbrk1,PIT Threshold1,PIT Rate for Consumption of Health,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,288000,,0,388000,,,stop
+_tbrk2,PIT Threshold2,PIT Rate for Consumption of Transport,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,388000,,288000,6000000,,,stop
+_tbrk3,PIT Threshold3,PIT Rate for Consumption of Communication,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,6000000,,388000,9600000,,,stop
+_tbrk4,PIT Threshold4,PIT Rate for Consumption of Recreation_Culture,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,9600000,,6000000,9E+99,,,stop
+_tbrk5,PIT Threshold5,PIT Rate for Consumption of Education,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,9.00E+99,,9600000,9.00E+99,,,stop
+_interest_WHT_rate,Exemption for Persons with Disabilities,PIT Rate for Consumption of Other_Consumption,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.15,,0,1,,,stop
+_mortgage_deduction_threshold,Ceiling for Insurance Relief,PIT Rate for Consumption of Other_Consumption,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,360000,,0,9.00E+99,,,stop
+_pension_deduction_threshold,Ceiling for Insurance Relief,PIT Rate for Consumption of Other_Consumption,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,240000,,0,9.00E+99,,,stop
+_personal_relief,Personal Relief,PIT Rate for Consumption of Restaurants_Hotels,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,28800,,0,9.00E+99,,,stop
+_insurance_relief_threshold,Ceiling for Insurance Relief,PIT Rate for Consumption of Other_Consumption,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,60000,,0,9.00E+99,,,stop
+_disability_exemption_threshold,Final Tax on Interest,PIT Rate for Consumption of Other_Consumption,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,1800000,,0,9.00E+99,,,stop
+_rate1_curr_law,Marginal PIT Rate1,PIT Rate for Consumption of Food,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.1,,0,1,,,stop
+_rate2_curr_law,Marginal PIT Rate2,PIT Rate for Consumption of Alcohol_Tobacco,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.25,,0,1,,,stop
+_rate3_curr_law,Marginal PIT Rate3,PIT Rate for Consumption of Clothing_Footwear,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.3,,0,1,,,stop
+_rate4_curr_law,Marginal PIT Rate4,PIT Rate for Consumption of Housing,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.325,,0,1,,,stop
+_rate5_curr_law,Marginal PIT Rate5,PIT Rate for Consumption of Household_Goods_Services,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,0.35,,0,1,,,stop
+_tbrk1_curr_law,PIT Threshold1,PIT Rate for Consumption of Health,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,288000,,0,388000,,,stop
+_tbrk2_curr_law,PIT Threshold2,PIT Rate for Consumption of Transport,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,388000,,288000,6000000,,,stop
+_tbrk3_curr_law,PIT Threshold3,PIT Rate for Consumption of Communication,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,6000000,,388000,9600000,,,stop
+_tbrk4_curr_law,PIT Threshold4,PIT Rate for Consumption of Recreation_Culture,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,9600000,,6000000,9E+99,,,stop
+_tbrk5_curr_law,PIT Threshold5,PIT Rate for Consumption of Education,PIT Act,,AYEAR,2023,2023,False,False,,,False,False,9E+99,,9600000,9.00E+99,,,stop
+_elasticity_pit_taxable_income_threshold,Elasticity of Taxable Income Threshholds,Elasticity of Taxable Income Threshholds,Research on Elasticity of Income,,AYEAR,2023,2023,False,False,bracket,,False,False,,,0,9.00E+99,,,stop
+_elasticity_pit_taxable_income_value,Elasticity of Taxable Income Values,Elasticity of Taxable Income Values,Research on Elasticity of Income,,AYEAR,2023,2023,False,False,bracket,,False,False,,,-100,100,,,stop
+_elasticity_pit_capital_income_threshold,Elasticity of Capital Income Threshholds,Elasticity of Capital Income Threshholds,Research on Elasticity of Income,,AYEAR,2023,2023,False,False,bracket,,False,False,,,0,9.00E+99,,,stop
+_elasticity_pit_capital_income_value,Elasticity of Capital Income Values,Elasticity of Capital Income Values,Research on Elasticity of Income,,AYEAR,2023,2023,False,False,bracket,,False,False,,,-100,100,,,stop

@@ -1,0 +1,31 @@
+﻿field_category,field_name,required,type,desc,form,2023,cross_year,attribute
+read,id_n,True,int,Unique positive numeric identifier for filing unit,,Tax Return Data,No,No
+read,Year,True,int,Year,,Tax Return Data,No,No
+read,weight,False,float,Weight,,Tax Return Data,No,No
+read,emp_income,False,float,Employment Income,,Tax Return Data,No,No
+read,other_income,False,float,Other Income,,Tax Return Data,No,No
+read,interest_income,False,float,Interest Income,,Tax Return Data,No,No
+read,business_income,False,float,Business Income,,Tax Return Data,No,No
+read,is_disabled,False,int,Person with Disability,,Tax Return Data,No,No
+read,mortage_interest,False,float,Mortgage Interest,,Tax Return Data,No,No
+read,home_own_saving_plan_dep,False,float,home_own_saving_plan_dep,,Tax Return Data,No,No
+read,hosp_tot_deposit_year,False,float,hosp_tot_deposit_year,,Tax Return Data,No,No
+read,pension_contribution,False,float,Pension Contribution,,Tax Return Data,No,No
+read,insurance_relief,False,float,Insurance Relief,,Tax Return Data,No,No
+calc,total_income,False,float,Total Income,,Calculated from Tax Return Data,,
+calc,capital_income,False,float,Capital Income,,Calculated from Tax Return Data,,
+calc,emp_income_total,False,float,Incomes at Marginal Rates,,Calculated from Tax Return Data,,
+calc,mortgage_deduction,False,float,Mortgage Deduction,,Calculated from Tax Return Data,,
+calc,pension_deduction,False,float,Mortgage Deduction,,Calculated from Tax Return Data,,
+calc,disability_exemption,False,float,disability_exemption,,Calculated from Tax Return Data,,
+calc,total_deductions,False,float,Total Deduction,,Calculated from Tax Return Data,,
+calc,net_taxable_income,False,float,Net Taxable Income,,Calculated from Tax Return Data,,
+calc,income_wage_behavior,False,float,Incomes after adjusting for behavior,,Calculated from Tax Return Data,,
+calc,tax_payable_before_reliefs,False,float,tax_payable_before_reliefs,,Calculated from Tax Return Data,,
+calc,total_reliefs,False,float,total_reliefs,,Calculated from Tax Return Data,,
+calc,tax_payable_after_reliefs,False,float,tax_payable_after_reliefs,,Calculated from Tax Return Data,,
+calc,applicable_elasticity_food,False,float,Applicable elasticity based on Total Consumption_Income levels,,Calculated from Tax Return Data,,
+calc,applicable_elasticity_non_food,False,float,Applicable elasticity based on Total Consumption_Income levels,,Calculated from Tax Return Data,,
+calc,pitax_c,False,float,Total PIT,,Calculated by the Model,,
+calc,pitax_w,False,float,Total PIT,,Calculated by the Model,,
+calc,pitax,False,float,Total PIT,,Calculated by the Model,,

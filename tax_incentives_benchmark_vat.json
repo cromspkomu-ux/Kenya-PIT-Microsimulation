@@ -1,0 +1,64 @@
+{
+    "policy": {
+        "_rate_Food": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Alcohol_Tobacco": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Clothing_Footwear": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Housing": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Hhold_Goods_Services": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Health": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Transport": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Communication": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Recreation_Culture": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Education": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Restaurants_Hotels": {
+            "2024": [
+                0.14
+            ]
+        },
+        "_rate_Miscellaneous": {
+            "2024": [
+                0.14
+            ]
+        }
+    }
+}
